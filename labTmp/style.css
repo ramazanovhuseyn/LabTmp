@@ -1,0 +1,96 @@
+body{
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+
+/* header */
+
+img{
+    width:100%;
+}
+header{
+    background-color: rgb(53, 1, 1);
+    height: 300px;
+    padding-top: 7%;
+    color:white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* header-link */
+
+.col-md-1l{
+    background-color: #666;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-10{
+    background-color: #333;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.col-md-1r{
+    background-color: #333;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+a{
+   color: white !important;
+}
+.a-p{
+    padding-left: 20px;
+}
+
+
+/* main-left-side */
+.main-left{
+    background-color:#f1f1f1;
+}
+.about-me{
+    padding-top: 2em;
+}
+.img-left-my{
+    height: 315px;
+    background-color: #aaa;
+}
+.img-3{
+    height: 60px;
+    margin-top: 1em;
+}
+
+
+/* main-right-side */
+.img-main-right{
+    height: 200px;
+    background-color: #aaa;
+}
+.img1{
+background-color: #c65b07;
+}
+
+.img2{
+    background-color: #014180;
+    }
+    
+.img3{
+    background-color: #871c1c;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        background-color:  rgb(53, 1, 1);
+        color: white;
+    }
